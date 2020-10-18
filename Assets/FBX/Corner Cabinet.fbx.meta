@@ -1,57 +1,47 @@
 fileFormatVersion: 2
-guid: 7dc68cc009152b1469460c54b9db883d
+guid: 92aa26eae1e307a43a84abf499b665a6
 ModelImporter:
-  serializedVersion: 19301
-  internalIDToNameTable: []
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: CabinetBaseCorner01
+    100002: //RootNode
+    100004: Countertop_Corner
+    100006: DoorArched05
+    100008: DoorArched06
+    400000: CabinetBaseCorner01
+    400002: //RootNode
+    400004: Countertop_Corner
+    400006: DoorArched05
+    400008: DoorArched06
+    2100000: Walnut_Wood
+    2100002: GraniteSlab
+    2300000: CabinetBaseCorner01
+    2300002: Countertop_Corner
+    2300004: DoorArched05
+    2300006: DoorArched06
+    3300000: CabinetBaseCorner01
+    3300002: Countertop_Corner
+    3300004: DoorArched05
+    3300006: DoorArched06
+    4300000: CabinetBaseCorner01
+    4300002: DoorArched06
+    4300004: DoorArched05
+    4300006: Countertop_Corner
+    9500000: //RootNode
   externalObjects:
-  - first:
-      type: UnityEngine:Cubemap
-      assembly: UnityEngine.CoreModule
-      name: diffuse_cube
-    second: {fileID: 8900000, guid: bc113432757a87d48b468fb4b5a6ae83, type: 3}
-  - first:
-      type: UnityEngine:Cubemap
-      assembly: UnityEngine.CoreModule
-      name: specular_cube
-    second: {fileID: 8900000, guid: 95bca0f4cc702924ab3b74a1c4e23166, type: 3}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: GraniteSlab
-    second: {fileID: 2100000, guid: 949c5bbbd9bc4da479da1d724ce37ed9, type: 2}
+    second: {fileID: 2100000, guid: e8fb926b0553b294f8e139134014ff0b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Walnut_Wood
-    second: {fileID: 2100000, guid: 73a824d34bc160d439f0167153686767, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: GraniteAL
-    second: {fileID: 2800000, guid: 6db47afd58259f6459dcae8628442725, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: WoodCherryNR
-    second: {fileID: 2800000, guid: 756ce3b62039291479e2d5788016d1c5, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: WoodWalnutAL
-    second: {fileID: 2800000, guid: 39dd25afb81f0074080934e83d13fc87, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: WoodWalnutME
-    second: {fileID: 2800000, guid: 200fa07e408c42f42bf27b39a6be2e8f, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: WoodWalnutRO
-    second: {fileID: 2800000, guid: a1a4297a5a618ad40b29f9e4af2d8159, type: 3}
+    second: {fileID: 2100000, guid: 6074f3d8c6a923345a780f1e1d0e9983, type: 2}
   materials:
-    materialImportMode: 1
-    materialName: 1
+    importMaterials: 1
+    materialName: 0
     materialSearch: 1
     materialLocation: 1
   animations:
@@ -67,7 +57,6 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -76,29 +65,23 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 0
+    isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 10
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -110,13 +93,10 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
-  importAnimation: 1
+  importAnimation: 0
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -126,16 +106,14 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 10
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
