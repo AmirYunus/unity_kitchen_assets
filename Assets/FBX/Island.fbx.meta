@@ -18,7 +18,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Bronze_Rubbed1
-    second: {fileID: 2100000, guid: caca19054b4edea43aba8f13e5bf5687, type: 2}
+    second: {fileID: 2100000, guid: 6942991ef4d98704fa4be609a9d8b254, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
